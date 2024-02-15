@@ -6,7 +6,7 @@ class Data {
     getListPost() {
         return {
             id: faker.string.uuid(),
-            title: faker.hacker.phrase(),
+            title: faker.lorem.paragraphs(),
             image: faker.image.image(),
             date: Date.now(),
         };
